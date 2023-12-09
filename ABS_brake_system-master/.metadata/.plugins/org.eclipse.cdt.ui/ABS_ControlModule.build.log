@@ -1,0 +1,12 @@
+14:46:07 **** Incremental Build of configuration Debug for project ABS_ControlModule ****
+make -j12 all 
+arm-none-eabi-size   ABS_ControlModule.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20224	     32	  12336	  32592	   7f50	ABS_ControlModule.elf
+Finished building: default.size.stdout
+ 
+arm-none-eabi-objcopy -O ihex ABS_ControlModule.elf ABS_ControlModule.hex
+ 
+
+14:46:08 Build Finished. 0 errors, 0 warnings. (took 993ms)
+
